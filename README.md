@@ -13,8 +13,8 @@ This project uses [Python](https://www.python.org/) (version >= 3.8)
 2. In root directory `/csgoat`, setup a virtual environment : `python -m venv .csgoat-env`
 3. Activate virtual environment :
 
-- Linux / MacOS : `source ./csgoat-env/bin/activate`
-- Windows: `./csgoat-env/Scripts/activate.bat`
+- Linux / MacOS : `source ./.csgoat-env/bin/activate`
+- Windows: `./.csgoat-env/Scripts/activate`
 
-4. Install external mandatory packages : `pip install -r requirements.txt`
+4. Install external mandatory packages : `python -m pip install -r requirements.txt`
 5. Run the project : `python ./main.py`
